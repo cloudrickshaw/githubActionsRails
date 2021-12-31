@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: install deployment deps
+      - name: install deployment deps
         run: |
           apt install -y libsqlite3-dev
 
